@@ -14,7 +14,8 @@ namespace ExampleDemo
              {
                  Console.WriteLine("1.FlipCoin."
                      +"\n 2.LeapYear."
-                 +"\n 3.Exit");
+                 +"\n 3.ReplaceString"
+                 +"\n 4.Exit");
                  int option = Convert.ToInt32(Console.ReadLine());
                  switch (option)
                  {
@@ -26,7 +27,11 @@ namespace ExampleDemo
                          LeapYear leapyear = new LeapYear();
                          leapyear.CheckLeapYear();
                          break;
-                     case 3: flag = false;
+                     case 3:
+                         ReplaceString replacestr = new ReplaceString();
+                         replacestr.ReplaceStr();
+                         break;
+                     case 4:    flag = false;
                          break;
                      default: Console.WriteLine("Choose Correct option");
                          break;
