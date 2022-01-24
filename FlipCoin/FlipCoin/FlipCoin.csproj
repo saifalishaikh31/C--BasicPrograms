@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5503E063-BBD7-4BE4-A36D-8BAB2C98C9AE}</ProjectGuid>
+    <ProjectGuid>{CDCED816-A8AC-44F4-98CE-EC862DFF7ED6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExampleDemo</RootNamespace>
-    <AssemblyName>ExampleDemo</AssemblyName>
+    <RootNamespace>FlipCoin</RootNamespace>
+    <AssemblyName>FlipCoin</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FlipCoin.cs" />
-    <Compile Include="LeapYear.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
