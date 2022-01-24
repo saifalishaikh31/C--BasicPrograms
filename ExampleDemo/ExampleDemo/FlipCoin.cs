@@ -19,14 +19,14 @@ namespace ExampleDemo
             while (i != N)
             {
                 Random random = new Random();
-                int tossCheck = random.Next(0, 2);
-                if (tossCheck == HEAD)
+                double tossCheck = random.NextDouble();
+               if (tossCheck < 0.5)
                 {
-                    headCount++;
+                    tailCount++;
                 }
                 else
                 {
-                    tailCount++;
+                    headCount++;
                 }
                 i++;
             }

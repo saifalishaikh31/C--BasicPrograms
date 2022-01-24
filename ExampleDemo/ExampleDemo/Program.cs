@@ -12,7 +12,9 @@ namespace ExampleDemo
              bool flag = true;
              while (flag)
              {
-                 Console.WriteLine("1.FlipCoin. \n 2.LeapYear. \n 3.Exit");
+                 Console.WriteLine("1.FlipCoin."
+                     +"\n 2.LeapYear."
+                 +"\n 3.Exit");
                  int option = Convert.ToInt32(Console.ReadLine());
                  switch (option)
                  {
