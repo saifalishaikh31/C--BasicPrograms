@@ -13,6 +13,7 @@ namespace ExampleDemo
         {
             double percentageOfHead, percentageOfTail;
             int headCount = 0, tailCount = 0;
+            
             Console.WriteLine("Enter the number of times coin should be tossed: ");
             int N = Convert.ToInt32(Console.ReadLine());
             int i = 0;
