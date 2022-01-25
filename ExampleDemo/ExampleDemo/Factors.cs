@@ -11,6 +11,7 @@ namespace ExampleDemo
         public void FindFactors()
         {
             int num;
+
             Console.WriteLine("Enter no to find Prime Factors");
             num = Convert.ToInt32(Console.ReadLine());
             for (int i = 2; i*i <= num; i++)
