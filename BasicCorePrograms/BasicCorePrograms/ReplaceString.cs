@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ExampleDemo
+namespace BasicCorePrograms
 {
     class ReplaceString
     {
-   
         public void ReplaceStr()
         {
             Console.WriteLine("Enter UserName : ");
@@ -21,8 +20,8 @@ namespace ExampleDemo
             else
             {
                 Console.WriteLine("Old String : " + template);
-                Console.WriteLine("New String : " + template.Replace("<<UserName>>",UName));
-             }
+                Console.WriteLine("New String : " + template.Replace("<<UserName>>", UName));
+            }
         }
     }
 }

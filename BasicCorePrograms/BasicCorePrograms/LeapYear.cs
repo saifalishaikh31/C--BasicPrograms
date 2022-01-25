@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ExampleDemo
+namespace BasicCorePrograms
 {
     class LeapYear
     {
@@ -19,7 +19,7 @@ namespace ExampleDemo
             {
                 Console.WriteLine("{0} is not a Leap Year.", Year);
             }
-            Console.ReadLine();  
+            Console.ReadLine();
         }
     }
 }

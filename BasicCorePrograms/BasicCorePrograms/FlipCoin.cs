@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ExampleDemo
+namespace BasicCorePrograms
 {
     class FlipCoin
     {
@@ -13,7 +13,7 @@ namespace ExampleDemo
         {
             double percentageOfHead, percentageOfTail;
             int headCount = 0, tailCount = 0;
-            
+
             Console.WriteLine("Enter the number of times coin should be tossed: ");
             int N = Convert.ToInt32(Console.ReadLine());
             int i = 0;
@@ -21,7 +21,7 @@ namespace ExampleDemo
             {
                 Random random = new Random();
                 double tossCheck = random.NextDouble();
-               if (tossCheck < 0.5)
+                if (tossCheck < 0.5)
                 {
                     tailCount++;
                 }

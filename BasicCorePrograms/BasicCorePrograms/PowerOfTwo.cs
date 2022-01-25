@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ExampleDemo
+namespace BasicCorePrograms
 {
-    class PowerOfTwo    
+    class PowerOfTwo
     {
         public void PwrOfTwo()
         {

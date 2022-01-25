@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ExampleDemo
+namespace BasicCorePrograms
 {
     class HarmonicNumber
     {
         public void FindHarmonicNumber()
         {
-            int i,N;
+            int i, N;
             double ans = 0.0;
 
             Console.WriteLine("Enter Nth number to find Harmonic Number");
